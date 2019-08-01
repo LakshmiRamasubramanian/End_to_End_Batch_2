@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+<title>sign up</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" type="text/css" href="all-pages-style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+ <header class="header">
+<h1>MENTOR ON DEMAND</h1>
+</header>
+</head>
+<body>
+ <form  class="search" style="margin-top: 20px;" action="user-menu.html">  
+  <input type="text" class="textbox" placeholder="Search here.." name="search" size="30">
+  <input type="text" class="textbox" placeholder="Time.." name="Time" size="30">
+      <button class="btn btn-info" "type="submit"><i class="fa fa-search"></i></button>
+ </form>
+ 
+<form name="RegForm" action="user-menu.html" onsubmit="return validation()">  
+      <h1>SIGN UP</h1> 
+    <p>Name:</p>
+    <p><input type="text" size=65 name="Name"> </p><br>        
+    <p> Address:</p>
+    <p> <input type="text" size=65 name="Address">  </p><br> 
+    <p>E-mail Address:</p>
+    <p><input type="email" size=65 name="EMail">  </p><br> 
+     <p>Password:</p>
+     <p><input type="password" size=65 name="Password"> </p><br> 
+    <p>Telephone:</p>
+    <p> <input type="tel" size=65 name="Telephone"> </p><br>   
+    <p><input type="submit" value="send" name="Submit">      
+        <input type="reset" value="Reset" name="Reset">   
+    </p>          
+</form>
+<script src="signup-validation.js" ></script>
+</div>     
+
+</body>
+</html>

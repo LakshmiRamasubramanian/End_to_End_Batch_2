@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+.header{
+	border: 5px solid black;
+	background-color:lightblue;
+	width:100%;
+	text-align: center;
+	margin:auto;
+}
+.section{
+	border: 5px solid black;
+	width:100%;
+	height:850px;
+	margin:auto;
+}
+img{
+	margin-left:200px;
+	margin-top: 40px;
+}
+a{
+	border: 5px lightblue;
+	border-radius:4px;
+	background-color:lightblue;
+	display:inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 30px;
+	
+}
+table{
+	margin-top: 40px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>login-user</title>
+ <link rel="stylesheet" type="text/css" href="all-pages-style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ 
+ <header class="header">
+<h1>MENTOR ON DEMAND</h1>
+</header>
+</head>
+<body>
+<div >
+<form  class="search" style="margin-top: 20px;" action="user-menu.html">  
+  <input  "type="text" class="textbox" placeholder="Search here.." name="search" size="30">
+  <input style="display:inline-block;" type="text" class="textbox" placeholder="Time.." name="Time" size="30">
+      <button class="btn btn-info" "type="submit"><i class="fa fa-search"></i></button>
+ </form>
+ </div>
+<form style="margin-top: 100px;"name="RegForm" action="user-menu.html" onsubmit="return validation()">  
+<h1 >Login</h1>  
+     <p>E-mail Address:</p>
+    <p><input type="email" size=65 name="EMail">  </p><br> 
+     <p>Password:</p>
+     <p><input type="password" size=65 name="Password"> </p><br> 
+     <p ><input type="submit" value="send" name="login">      
+        <input type="reset" value="Reset" name="Reset">   
+       <button  ><a style="display:inline-block; text-decoration: none; color:black "href="signup-form-user.html">sign up</a></button>
+    </p>          
+</form>
+
+</div>     
+<script src="login-validation.js" ></script>
+</body>
+</html>
